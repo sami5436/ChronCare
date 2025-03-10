@@ -8,9 +8,9 @@ variable "mongodb_atlas_private_key" {
   description = "MongoDB Atlas Private API Key"
 }
 
-variable "mongodb_atlas_org_id" {
+variable "mongodb_atlas_project_id" {
   type        = string
-  description = "MongoDB Atlas Organization ID"
+  description = "MongoDB Atlas Project ID"
 }
 
 variable "render_api_key" {
@@ -18,8 +18,7 @@ variable "render_api_key" {
   description = "Render API Key"
 }
 
-variable "secret_key" {
+variable "render_service_id" {
   type        = string
-  description = "Secret Key for App"
-  sensitive   = true
+  description = "Render Service ID"
 }
