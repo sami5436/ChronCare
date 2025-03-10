@@ -1,4 +1,4 @@
-name: Deploy Frontend to Vercel
+name: Frontend Deployment
 
 on:
   push:
@@ -14,13 +14,10 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-
-      - name: Install Vercel CLI
-        run: npm install -g vercel
 
       - name: Install Dependencies
         run: |
@@ -30,6 +27,7 @@ jobs:
       - name: Deploy to Vercel
         run: |
           cd frontend
+          npm install -g vercel
           vercel --token ${{ secrets.VERCEL_TOKEN }} --prod
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
