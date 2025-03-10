@@ -1,4 +1,4 @@
-name: Terraform Deploy
+name: Terraform Deploy 
 
 on:
   push:
@@ -9,14 +9,15 @@ on:
 jobs:
   terraform:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Setup Terraform
+      - name: Set up Terraform
         uses: hashicorp/setup-terraform@v2
         with:
-          terraform_version: 1.4.0
+          terraform_version: "1.5.0"
 
       - name: Initialize Terraform
         run: |
@@ -32,8 +33,9 @@ jobs:
           TF_VAR_mongodb_atlas_private_key: ${{ secrets.MONGODB_ATLAS_PRIVATE_KEY }}
           TF_VAR_mongodb_atlas_org_id: ${{ secrets.MONGODB_ATLAS_ORG_ID }}
           TF_VAR_mongodb_admin_password: ${{ secrets.MONGODB_ADMIN_PASSWORD }}
+          TF_VAR_render_api_key: ${{ secrets.RENDER_API_KEY }}
 
-      - name: Terraform Apply (Auto-Approve)
+      - name: Terraform Apply
         run: |
           cd infra/terraform
           terraform apply -auto-approve
