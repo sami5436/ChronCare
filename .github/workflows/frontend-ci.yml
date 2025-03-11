@@ -26,7 +26,6 @@ jobs:
 
       - name: Deploy to Vercel
         run: |
-          cd frontend
           npm install -g vercel
           vercel --token ${{ secrets.VERCEL_TOKEN }} --prod
         env:
