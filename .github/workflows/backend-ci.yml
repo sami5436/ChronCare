@@ -1,11 +1,7 @@
 name: Backend CI/CD
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-  workflow_dispatch:
+    workflow_dispatch:
 
 jobs:
   test:

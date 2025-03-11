@@ -1,11 +1,7 @@
 name: Frontend Deployment
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-  workflow_dispatch:
+    workflow_dispatch:
 
 jobs:
   deploy:
