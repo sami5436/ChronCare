@@ -84,6 +84,8 @@ npm create vite@latest my-react-app --template react
 - Data visualization for user insights
 
 
-**Live Demo:** [-care.vercel.app](https://-care.vercel.app)  
-Built and maintained by [sami5436](https://github.com/sami5436/)
+
+**Live Demo:** [CrohnCare](https://crohn-care.vercel.app/)  
+
+Let me know if you need any other fixes! 🚀Built and maintained by [sami5436](https://github.com/sami5436/)
 
