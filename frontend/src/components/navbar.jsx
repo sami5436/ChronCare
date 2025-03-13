@@ -15,21 +15,25 @@ function Navbar() {
           <ul className="flex space-x-9">
             <li>
               <Link to="/" className="text-[#000000] hover:text-gray-400">
+
                 Home
               </Link>
             </li>
             <li>
               <Link to="/about-us" className="text-[#000000] hover:text-gray-400">
+
                 About Us
               </Link>
             </li>
             <li>
               <Link to="/contact-us" className="text-[#000000] hover:text-gray-400">
+
                 Contact Us
               </Link>
             </li>
             <li>
               <Link to="/login" className="text-[#000000] hover:text-gray-400 flex items-center">
+
                 <User className="mr-2" size={20} />
               </Link>
             </li>

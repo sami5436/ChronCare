@@ -16,10 +16,10 @@ function App() {
   const shouldShowNavbar = !hideNavbarPaths.some(path => location.pathname.startsWith(path));
   const shouldShowFooter = !hideFooterPaths.some(path => location.pathname.startsWith(path));
 
+
   return (
     <>
       {shouldShowNavbar && <Navbar />}
-      
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="signup" element={<Signup />} />
@@ -30,6 +30,7 @@ function App() {
       </Routes>
 
       {shouldShowFooter && <Footer />}
+
     </>
   );
 }
