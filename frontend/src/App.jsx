@@ -6,14 +6,16 @@ import AdminProfile from "./pages/admin/adminProfile";
 import Navbar from "./components/navbar";
 import Contactus from "./pages/contactus";
 import Aboutus from "./pages/aboutus";
-
-// Import ProfileProvider if it's used
+import Footer from "./components/footer";
 
 function App() {
   const location = useLocation();
-  const hideNavbarPaths = ["/admin/profile"];
+  const hideNavbarPaths = ["/admin/profile", "/login"];
+  const hideFooterPaths = ["/admin/profile", "/login"];
 
   const shouldShowNavbar = !hideNavbarPaths.some(path => location.pathname.startsWith(path));
+  const shouldShowFooter = !hideFooterPaths.some(path => location.pathname.startsWith(path));
+
 
   return (
     <>
@@ -24,13 +26,11 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="contact-us" element={<Contactus />} />
         <Route path="about-us" element={<Aboutus />} />
-        
-        <Route path="/admin/*" element={
-            <Routes>
-              <Route path="profile" element={<AdminProfile />} />
-            </Routes>
-        } />
+        <Route path="/admin/profile" element={<AdminProfile />} />
       </Routes>
+
+      {shouldShowFooter && <Footer />}
+
     </>
   );
 }
