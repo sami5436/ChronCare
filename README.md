@@ -1,11 +1,11 @@
-# ChronCare
+# CrohnCare
 
-ChronCare is a full-stack health management application designed to assist individuals with Crohn's Disease by tracking symptoms, medications, and doctor visits. The platform consists of a React-based frontend, an Express.js backend, and a MongoDB database, all integrated with a robust CI/CD pipeline.
+CrohnCare is a full-stack health management application designed to assist individuals with Crohn's Disease by tracking symptoms, medications, and doctor visits. The platform consists of a React-based frontend, an Express.js backend, and a MongoDB database, all integrated with a robust CI/CD pipeline.
 
 ## Project Directory Structure
 
 ```
-ChronCare/
+CrohnCare/
 │── .github/workflows/       # CI/CD workflows for GitHub Actions
 │── backend/                 # Node.js (Express) backend API
 │── frontend/                # React frontend (initialized using Vite)
@@ -30,7 +30,7 @@ ChronCare/
 
 ## CI/CD Workflow
 
-ChronCare uses GitHub Actions to automate deployments.
+CrohnCare uses GitHub Actions to automate deployments.
 
 ### CI/CD Pipeline Overview
 
@@ -50,8 +50,8 @@ ChronCare uses GitHub Actions to automate deployments.
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/sami5436/ChronCare.git
-cd ChronCare
+git clone https://github.com/sami5436/Care.git
+cd Care
 ```
 
 ### Start the Backend
@@ -84,6 +84,6 @@ npm create vite@latest my-react-app --template react
 - Data visualization for user insights
 
 
-**Live Demo:** [chron-care.vercel.app](https://chron-care.vercel.app)  
+**Live Demo:** [-care.vercel.app](https://-care.vercel.app)  
 Built and maintained by [sami5436](https://github.com/sami5436/)
 
