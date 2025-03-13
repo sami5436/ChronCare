@@ -26,7 +26,7 @@ function landing() {
           <div className="md:w-1/2">
             <img 
               src="/api/placeholder/600/450" 
-              alt="ChronCare Dashboard Preview" 
+              alt="CrohnCare Dashboard Preview" 
               className="rounded-xl shadow-2xl"
             />
           </div>
@@ -37,7 +37,7 @@ function landing() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-0">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">How ChronCare Helps You</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">How CrohnCare Helps You</h2>
             <p className="text-gray-600 max-w-xl mx-auto">
               Our comprehensive suite of tools gives you everything you need to better understand and manage your Crohn's disease.
             </p>
@@ -104,7 +104,7 @@ function landing() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "ChronCare has been a game-changer. I've identified several food triggers I wasn't aware of, and my flare-ups have decreased significantly."
+                "CrohnCare has been a game-changer. I've identified several food triggers I wasn't aware of, and my flare-ups have decreased significantly."
               </p>
             </div>
             
@@ -134,7 +134,7 @@ function landing() {
                 </div>
               </div>
               <p className="text-gray-700">
-                "I've tried many tracking apps, but ChronCare's pattern recognition is on another level. I feel more in control of my health than ever before."
+                "I've tried many tracking apps, but CrohnCare's pattern recognition is on another level. I feel more in control of my health than ever before."
               </p>
             </div>
           </div>
@@ -146,7 +146,7 @@ function landing() {
         <div className="container mx-auto px-4 md:px-0 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Take Control of Your Crohn's?</h2>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
-            Join thousands of patients who are managing their Crohn's disease more effectively with ChronCare.
+            Join thousands of patients who are managing their Crohn's disease more effectively with CrohnCare.
           </p>
           <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition duration-300 cursor-pointer">
             Sign Up for Free
