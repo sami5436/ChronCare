@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">ChronCare</h3>
+            <h3 className="text-xl font-bold mb-4">CrohnCare</h3>
             <p className="text-gray-400">
               Empowering Crohn's patients with data-driven insights for better health management.
             </p>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 ChronCare. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 CrohnCare. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition">
               <span className="sr-only">Twitter</span>

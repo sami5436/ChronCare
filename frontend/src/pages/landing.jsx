@@ -23,13 +23,13 @@ function landing() {
               </button>
             </div>
           </div>
-          <div className="md:w-1/2">
+          {/* <div className="md:w-1/2">
             <img 
               src="/api/placeholder/600/450" 
               alt="CrohnCare Dashboard Preview" 
               className="rounded-xl shadow-2xl"
             />
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -142,13 +142,13 @@ function landing() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-blue-50 text-gray-800">
         <div className="container mx-auto px-4 md:px-0 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Take Control of Your Crohn's?</h2>
           <p className="text-xl opacity-90 mb-8 max-w-2xl mx-auto">
             Join thousands of patients who are managing their Crohn's disease more effectively with CrohnCare.
           </p>
-          <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition duration-300 cursor-pointer">
+          <button className="bg-blue-400 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-700 transition duration-300 cursor-pointer">
             Sign Up for Free
           </button>
         </div>
