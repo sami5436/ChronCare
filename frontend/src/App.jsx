@@ -11,7 +11,7 @@ import Footer from "./components/footer";
 function App() {
   const location = useLocation();
   const hideNavbarPaths = ["/admin/profile"];
-  const hideFooterPaths = ["/admin/profile", "/login"];
+  const hideFooterPaths = ["/admin/profile", "/login","/signup"];
 
   const shouldShowNavbar = !hideNavbarPaths.some(path => location.pathname.startsWith(path));
   const shouldShowFooter = !hideFooterPaths.some(path => location.pathname.startsWith(path));
