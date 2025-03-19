@@ -3,7 +3,6 @@ import React from 'react'
 function userProfile() {
   return (
     <div>
-      
     </div>
   )
 }
